@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body id="bodyLogin">
+    
+     <!--contenedor encabezado---->
+    <header id="headerLogin">
+        <h1> ONLINE SHOES STORE</h1>
+    </header>
+
+    <main>
+
+        <!--formulario 
+            entre los atributos que se pueden nombrar estan cheked
+            disabled, required, size, placeholder, etc, identificados se encuentran  required , placeholder---->
+       <form>
+         <div class="contenedor">
+            <h3>Bienvenido </h3>
+
+            <input class="campo" type="text" name="txtnombre" id="IDnombre" required placeholder="Nombre de usuario">
+            <input class="campo" type="password" name="txtpassword"  id="IDpassword" required placeholder="Contraseña">
+            <label>
+                <input type="checkbox" checked="checked">
+                <span ></span> Recordar usuario
+              </label>
+                <input class="boton" type="submit" value="LOGIN">
+                <p>No tienes cuenta aun? <a href="Formulario de registro.html" target="_blank">Registrate</a></p>
+
+            </div>
+
+      </form>
+    </main>
+     <!--contenedor pie pagina---->
+    <footer  id="footerr">
+        <h4>2020 Online shoes Shop- Todos los derechos reservados</h4>
+        
+    </footer>
+    
+</body>
+</html>
